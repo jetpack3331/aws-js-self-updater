@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Self updater</title>
+</head>
+</head>
+<style>
+    body { background-color: #E6E7E7;}
+    .icon-loader {
+        display: block;
+        margin: 100px auto;
+        width: 120px;
+        height: 120px;
+        background-image: url("assets/img/loader.gif");
+        background-size: 120px 120px;
+        background-repeat: no-repeat;
+        opacity: .6;
+    }
+</style>
+<body class="fixed">
+<div id="container">
+
+    <div id="app"></div>
+    <div id="meme"></div>
+
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.36.min.js"></script>
+    <script id="appScript" src="demo/app.js"></script>
+</body>
+</html>
