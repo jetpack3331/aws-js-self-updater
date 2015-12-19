@@ -4,8 +4,8 @@
   "scripts": {
     "build": "webpack -p --display-chunks --display-error-detail --config webpack.config.js"
   },
-  "author": "Bileto",
-  "license": "proprietary",
+  "author": "Roman Antl",
+  "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^3.0.1",
     "coveralls": "^2.11.2",
