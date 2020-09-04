@@ -27,7 +27,7 @@
     "image-webpack-loader": "^1.6.1",
     "imagemin": "^3.2.0",
     "json-loader": "^0.5.1",
-    "node-sass": "^3.3.2",
+    "node-sass": "^4.14.1",
     "notevil": "^1.0.0",
     "promise": "^7.0.1",
     "react": "^0.14.0",
